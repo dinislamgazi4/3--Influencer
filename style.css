@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    margin: 0;
+    background-color: aqua;
+}
+
+main{
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+    margin: 0 auto;
+    width: 1200px;
+    
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+span h2{
+    margin-left: 60px;
+}
+span a, .fa-solid{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+}
+.top-influencer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.start{
+    width: 500px;
+}
+.start h1{
+    font-size: 50px;
+}
+.btn-1{
+    background-color: orangered;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+}
+.btn-1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+.btn-1 i{
+    color: white;
+
+}
+
+.logo-style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px;
+}
+hr{
+    width: 85%;
+    border: 1px solid gainsboro;
+}
+.hero-popular{
+    text-align: center;
+    margin-top: 50px;
+    height: 50px;
+}
+.popular{
+    width: 250px;
+    height: 410px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 10px;
+}
+.popular img{
+    width: 260px;
+    height: 180px;
+    margin-left: -6px;
+}
+.icon-star{
+    font-size: 20px;   
+}
+.filled{
+       color: gold;
+       margin-left: -10px;
+}
+.container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.btn-2{
+    background-color:aquamarine;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 100px;
+}
+.btn-2 a{
+    text-decoration: none;
+    color: deeppink;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+.btn-2 i{
+    color: deeppink;
+
+}
+
+.gear-img{
+    width: 200px;
+}
+.start h2{
+    font-size: 34px;
+    
+}
+.btn-3{
+    background-color: deeppink;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+.btn-3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+.btn-3 i{
+    color: white;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color:black; 
+    text-align: center; 
+}
+.last{
+    color: wheat;
+    
+}
+.icon{
+    margin: 10px;
+}
